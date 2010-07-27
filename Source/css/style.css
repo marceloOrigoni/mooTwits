@@ -1,0 +1,48 @@
+.wrapper{
+	margin: 0px auto 0px;
+	width: 650px;
+}
+
+#tweets{
+	float: left;
+	width: 648px;
+	border: 1px solid #33CCFF;
+	}
+	
+.loading{
+	width: 648px;
+	height: 20px;
+	background: url(../images/loading.gif) 316px 2px no-repeat;
+	}
+	
+#tweets .tweet{
+	float: left;
+	margin: 3px;
+	width: 640px;
+	border: 1px solid #33CCFF;
+	}
+	
+#tweets .tweet .text{
+	float: left;
+	font-weight: bold;
+	background: #33ccff;
+	color: #ffffff;
+	width: 510px;
+	height: 45px;
+	}
+	
+#tweets .tweet .date{
+	float: left;
+	color: #33ccff;
+	width: 120px;
+	margin: 0 5px;
+	}
+
+#tweets .tweet .author{
+	float: left;
+	font-weight: bold;
+	color: #33ccff;
+	width: 120px;
+	margin: 0 5px;
+	text-decoration: none;
+	}
