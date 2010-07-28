@@ -69,7 +69,7 @@ var mooTwits = new Class({
 					}
 				}
 				else{
-					$(container)..setProperty('text', 'No Tweets');
+					$(container).setProperty('text', 'No Tweets');
 				}
 				$(container).removeClass(mooTweet.options.tweetLoad);
 			},
